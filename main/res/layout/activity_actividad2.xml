@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/padding_gral"
+    android:paddingVertical="@dimen/padding_gral"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/design_default_color_secondary_variant"
+    tools:context=".Actividad2">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/tituloActividad2"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/marginTitulo"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/marginVerET"
+        android:textSize="@dimen/tamaño_letras"/>
+
+    <TextView
+        android:id="@+id/tvFechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/marginVerET"
+        android:textSize="@dimen/tamaño_letras"/>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/marginVerET"
+        android:textSize="@dimen/tamaño_letras"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/marginVerET"
+        android:textSize="@dimen/tamaño_letras"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/marginVerET"
+        android:textSize="@dimen/tamaño_letras"/>
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton2"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="tituloActividad2">Confirmar Datos</string>
+    <string name="boton">Siguiente</string>
+    <string name="boton2">Editar Datos</string>
+</resources>
